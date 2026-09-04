@@ -8,8 +8,6 @@ defined('ABSPATH') || exit;
 $login_url = get_permalink(get_option('woocommerce_myaccount_page_id'));
 $reg_url   = add_query_arg('action', 'register', $login_url);
 $show_reg  = isset($_GET['action']) && $_GET['action'] === 'register';
-
-get_header();
 ?>
 
 <div class="pw-auth-page pw-auth-wrap">
@@ -202,5 +200,3 @@ get_header();
   </div><!-- /.pw-auth-form-panel -->
 
 </div><!-- /.pw-auth-wrap -->
-
-<?php get_footer(); ?>

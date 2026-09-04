@@ -8,9 +8,12 @@ get_header(); ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
     <?php
-    // Only show the default page header when the page is NOT built with Elementor.
-    // When Elementor is used, it manages its own layout, titles, and sections.
-    if ( ! function_exists('pw_is_built_with_elementor') || ! pw_is_built_with_elementor() ) : ?>
+    $is_woo_page = ( function_exists('is_woocommerce') && ( is_cart() || is_checkout() || is_account_page() ) );
+
+    if ( $is_woo_page ) :
+        // WooCommerce cart, checkout, my-account manage their own headers and layouts
+        the_content();
+    elseif ( ! function_exists('pw_is_built_with_elementor') || ! pw_is_built_with_elementor() ) : ?>
         <div class="pw-page-header">
             <div class="pw-page-eyebrow">PerfectWelding</div>
             <h1 class="pw-page-title"><?php the_title(); ?></h1>

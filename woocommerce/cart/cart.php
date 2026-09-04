@@ -3,7 +3,6 @@
  * Cart Page — PerfectWelding
  */
 defined('ABSPATH') || exit;
-get_header();
 ?>
 
 <div class="cart-page">
@@ -200,5 +199,3 @@ get_header();
   <?php endif; ?>
 
 </div><!-- .cart-page -->
-
-<?php get_footer(); ?>

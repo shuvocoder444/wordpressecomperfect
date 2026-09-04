@@ -4,7 +4,6 @@
  * Shows login/register for guests, dashboard for logged-in users
  */
 defined('ABSPATH') || exit;
-get_header();
 
 if ( is_user_logged_in() ) :
   // ── DASHBOARD ──────────────────────────────────────────────────
@@ -370,5 +369,3 @@ if ( is_user_logged_in() ) :
   </div>
 
 <?php endif; ?>
-
-<?php get_footer(); ?>

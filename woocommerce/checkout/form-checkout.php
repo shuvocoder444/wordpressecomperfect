@@ -4,9 +4,6 @@
  */
 defined('ABSPATH') || exit;
 
-$pw_headers_sent = ( did_action('wp_head') > 0 );
-if ( ! $pw_headers_sent ) get_header();
-
 if ( class_exists('WooCommerce') && WC()->payment_gateways() ) {
     WC()->payment_gateways()->init();
     $available_gateways = WC()->payment_gateways()->get_available_payment_gateways();
@@ -238,5 +235,3 @@ document.querySelector('.pw-show-login')?.addEventListener('click', function(e) 
     if (box) box.style.display = box.style.display === 'none' ? 'block' : 'none';
 });
 </script>
-
-<?php if (!$pw_headers_sent) get_footer(); ?>
