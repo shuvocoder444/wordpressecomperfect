@@ -1,0 +1,106 @@
+# PerfectWelding — English (US) Translation
+# Text Domain: perfectwelding
+# Locale: en_US
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PerfectWelding 1.0.0\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2024-01-01 00:00+0000\n"
+"Last-Translator: PerfectWelding <info@perfectwelding.nl>\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Your Cart"
+msgstr "Your Cart"
+
+msgid "Close cart"
+msgstr "Close cart"
+
+msgid "Shopping Cart"
+msgstr "Shopping Cart"
+
+msgid "Your cart is empty."
+msgstr "Your cart is empty."
+
+msgid "Continue Shopping"
+msgstr "Continue Shopping"
+
+msgid "Decrease quantity"
+msgstr "Decrease quantity"
+
+msgid "Increase quantity"
+msgstr "Increase quantity"
+
+msgid "Quantity"
+msgstr "Quantity"
+
+msgid "Remove"
+msgstr "Remove"
+
+msgid "Remove item"
+msgstr "Remove item"
+
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgid "View Cart"
+msgstr "View Cart"
+
+msgid "View Cart &rarr;"
+msgstr "View Cart &rarr;"
+
+msgid "Checkout"
+msgstr "Checkout"
+
+msgid "Add to Cart"
+msgstr "Add to Cart"
+
+msgid "+ Add to Cart"
+msgstr "+ Add to Cart"
+
+msgid "Out of Stock"
+msgstr "Out of Stock"
+
+msgid "Product added to cart!"
+msgstr "Product added to cart!"
+
+msgid "Added!"
+msgstr "Added!"
+
+msgid "Please select all options first."
+msgstr "Please select all options first."
+
+msgid "Something went wrong. Please try again."
+msgstr "Something went wrong. Please try again."
+
+msgid "Back to shop"
+msgstr "Back to shop"
+
+msgid "Primary Menu"
+msgstr "Primary Menu"
+
+msgid "Footer Menu"
+msgstr "Footer Menu"
+
+msgid "Shop Sidebar"
+msgstr "Shop Sidebar"
+
+msgid "Widgets for shop page sidebar"
+msgstr "Widgets for shop page sidebar"
+
+msgid "Product added to cart"
+msgstr "Product added to cart"
+
+msgid "Could not add to cart"
+msgstr "Could not add to cart"
+
+msgid "My Account"
+msgstr "My Account"
+
+msgid "Mijn account"
+msgstr "My Account"
